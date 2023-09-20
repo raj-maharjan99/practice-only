@@ -1,0 +1,16 @@
+.box {
+    border: 1px solid green ;
+    height: 20rem;
+    width: 25rem;
+   text-align: center;
+   
+}
+button {
+
+font-size: 30px;
+    margin: 10px;
+    
+}
+button:hover {
+    filter: drop-shadow(0 0 5px rgb(2, 14, 138));
+}
