@@ -21,10 +21,13 @@ function Home() {
  <div className={styles.box}>
     <h1>{count}</h1> 
 
-<button onClick={ab}>Add</button>
+{/* <button onClick={ab}>Add</button>
 <button onClick={abc}>Less</button>
-<button onClick={abcd}>Reset</button>
+<button onClick={abcd}>Reset</button> */}
 
+<button onClick={() => xyz((count) => count + 1)}>add</button>
+<button onClick={() => xyz((count) => count - 1)}>less</button>
+<button onClick={() => xyz((count) => count *0)}>reset</button>
   </div>
    
 
