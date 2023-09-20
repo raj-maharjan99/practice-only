@@ -21,18 +21,21 @@ function Home() {
  <div className={styles.box}>
     <h1>{count}</h1> 
 
-{/* <button onClick={ab}>Add</button>
+<button onClick={ab}>Add</button>
 <button onClick={abc}>Less</button>
-<button onClick={abcd}>Reset</button> */}
-
-<button onClick={() => xyz((count) => count + 1)}>add</button>
-<button onClick={() => xyz((count) => count - 1)}>less</button>
-<button onClick={() => xyz((count) => count *0)}>reset</button>
+<button onClick={abcd}>Reset</button>
+</div> 
+ <div className={styles.box1}><h1>{count}</h1>
+<button onClick={() => xyz(count + 1)}>Expenses</button>
+<button onClick={() => xyz(count - 1)}>Income</button>
+<button onClick={() => xyz(0) }>Pocket</button>
   </div>
-   
+
 
   
   </>
 }
 
 export default Home
+
+
